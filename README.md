@@ -18,5 +18,6 @@ workspace 'Project.xcworkspace'
 target :Project do
     project 'Project.xcodeproj'
     pod RMRDAOGenerator
+    pod RMRParserGenerator
 end
 ```
