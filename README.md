@@ -17,8 +17,8 @@ workspace 'Project.xcworkspace'
 
 target :Project do
     project 'Project.xcodeproj'
-    pod RMRDAOGenerator
-    pod RMRParserGenerator
+    pod 'RMRDAOGenerator'
+    pod 'RMRParserGenerator'
 end
 ```
 ## How to prepare binary release for cocoapods
