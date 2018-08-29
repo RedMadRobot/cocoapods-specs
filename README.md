@@ -32,9 +32,12 @@ Each time you **update generator repository** you need to **draft new release** 
 
 2. Build generator.
 
-3. Get binary file and zip it. Ensure there is no root folder or cocoapods won't install it.
+3. Get binary file and license file and then zip it. Ensure there is no root folder or cocoapods won't install it.
 You can use this console command to zip files only:
-`zip -j -D -r generator.zip generator`
+
+```
+zip parser_generator.zip ParserGenerator LICENSE
+```
 
 4. Go to generator repository and draft new release at releases tab in Github. Upload zip.
 
